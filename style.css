@@ -1,0 +1,127 @@
+body {
+  /*Background color for entire page*/
+  background-color: AliceBlue;
+}
+
+img {
+  width: 10em;
+  border: solid;
+  border-width: 10px;
+  border-color: rgb(100, 0, 0, 1);
+}
+
+h2 {
+  color: rgb(30, 70, 200, 1);
+}
+
+table {
+  /*puts table in the center of the page*/
+  margin: auto;
+  background-color: lavender;
+  border: 3px solid Indigo;
+}
+
+tr:nth-child(even) {
+  background-color: MediumOrchid;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.innerBucketList {
+  border: 1px solid black;
+  background-color: #ccffb3;
+  width: 50%;
+  color: black;
+  font-family: Geneva, sans-serif;
+  padding: 25px 0px 25px 50px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 50px;
+}
+
+.bucketList > li:nth-child(1),
+.bucketList > li:nth-child(2),
+.bucketList > li:nth-child(3),
+.bucketList > li:nth-child(4) {
+  font-size: 20px;
+}
+.bucketList > li:nth-child(1) > ul li {
+  font-size: 15px;
+}
+
+
+#subItemBucket {
+  /*Also using em instead of px for font sizes for more consistent experience for both desktop and mobile devices*/
+  font-size: 2.4em;
+}
+
+#acadPara {
+font-family: Monaco, "Courier New","Lucida Console", monospace;
+}
+
+.boxEntertainmentDiv {
+  /*A blue box with rounded corners div*/
+  background-color: BlanchedAlmond;
+  border: solid;
+  border-width: 1px;
+  border-color: Coral;
+  margin: 20px 30px 10px 10px;
+  padding: 0px 20px 10px 20px;
+  border-radius: 50px;
+}
+
+.boxdAcadDiv {
+  /*A blue box with rounded corners div*/
+  background-color: LightBlue;
+  border: solid;
+  border-width: 1px;
+  border-color: CornflowerBlue;
+  margin: 20px 30px 10px 10px;
+  padding: 0px 20px 10px 20px;
+  border-radius: 50px;
+}
+
+.boxCravingDiv {
+  /*A blue box with rounded corners div*/
+  background-color: LightPink;
+  border: solid;
+  border-width: 1px;
+  border-color: magenta;
+  margin: 20px 30px 10px 10px;
+  padding: 0px 20px 10px 20px;
+  border-radius: 50px;
+}
+
+.boxBLDiv {
+  /*A blue box with rounded corners div*/
+  background-color: MediumSeaGreen;
+  border: solid;
+  border-width: 1px;
+  border-color: LawnGreen;
+  margin: 20px 30px 10px 10px;
+  padding: 0px 20px 10px 20px;
+  border-radius: 50px;
+}
+
+.boxCravingDiv {
+  /*A blue box with rounded corners div*/
+  background-color: LightPink;
+  border: solid;
+  border-width: 1px;
+  border-color: magenta;
+  margin: 20px 30px 10px 10px;
+  padding: 0px 20px 10px 20px;
+  border-radius: 50px;
+}
+
+.boxLangDiv {
+  /*A blue box with rounded corners div*/
+  background-color: BlanchedAlmond;
+  border: solid;
+  border-width: 1px;
+  border-color: MidnightBlue;
+  margin: 20px 30px 10px 10px;
+  padding: 0px 20px 10px 20px;
+  border-radius: 50px;
+}
